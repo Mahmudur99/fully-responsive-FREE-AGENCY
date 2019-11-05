@@ -1,0 +1,105 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.btn-custom1{ margin-top: 12px; }
+	.banner{ padding: 40px 0; }
+    .banner h1{ font-size: 32px; }
+	.banner p{ font-size: 18px;	}
+	.btn-custom2{ font-size: 18px; padding: 12px 22px; }
+	.about_us{ padding: 60px 0 40px; }
+	.service { padding: 0 30px; }
+	.service p{ margin-bottom: 50px; }
+	.our_approach{ padding: 80px 0 40px; }
+	.custom_card{ padding: 30px 10px 25px; }
+	.custom_card p{ font-size: 14px; }
+	.our_work{ padding: 100px 70px 120px; }
+	.analysis { padding: 70px 0px 80px; }
+	.form-card{ padding: 10px; }
+	.padd_26{ padding: 0 0; }
+	.padd_48{ padding: 0 0; }
+	.arrow{ right: 42.9%; }
+    .c_title{ font-size: 22px; }
+    .c_text{ font-size: 18px; }
+    .btn-custom4{
+    	font-size: 14px;
+    	padding: 6px 8px;
+    	margin-top: 30px;
+    	margin-bottom: 0px;
+    }
+    .touch{ padding: 40px 10px; }
+    .s_box{ padding: 0; }
+    .box1{ padding: 6px 12px; }
+    .box2{ padding: 6px 8px; }  
+    .box3{ padding: 6px 6px; }  
+    .box4{ padding: 6px 10px; }
+    .cus-button5{ padding: 14px 12px; }  
+    .end_bar{ padding: 18px; } 
+    .e_text{
+    	font-size: 14px;
+    }     
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.btn-custom1{ margin-top: 12px; }
+	.banner{ padding: 110px 0 160px; }
+	.banner h1{ font-size: 36px; }
+	.banner p{ font-size: 22px;	}
+	.btn-custom2{ font-size: 18px; padding: 14px 32px; }
+	.about_us{ padding: 80px 0 40px; }
+	.service { padding: 0 100px; }
+	.service p{ margin-bottom: 50px; }
+	.our_approach{ padding: 90px 0 40px; }
+	.custom_card{ padding: 40px 30px 35px; }
+	.custom_card p{ font-size: 14px; }
+	.our_work{ padding: 100px 60px 120px; }
+    .arrow{ right: 45.7%; }
+	.padd_26{ padding: 0 0; }
+    .padd_48{ padding: 0 0; }
+    .analysis { padding: 70px 0px 80px; }
+    .c_title{ font-size: 26px; }
+    .c_text{ font-size: 18px; }
+    .btn-custom4{
+    	font-size: 14px;
+    	padding: 6px 8px;
+    	margin-top: 30px;
+    	margin-bottom: 0px;
+    }
+    .touch{ padding: 60px 70px; }
+    .cus-button5{ padding: 14px 18px; }    
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.btn-custom1{ margin-top: 12px; }
+	.banner{ padding: 140px 0 200px; }  
+	.about_us{ padding: 80px 0 80px; }
+	.service { padding: 0 20px; } 
+	.our_approach{ padding: 80px 0 60px; }
+	.custom_card{ padding: 20px 16px 18px; } 
+	.custom_card p{ font-size: 14px; }
+	.our_work{ padding: 100px 40px 120px; }
+	.reverse-collapse { top: -17.4%; right: 42.9%; }
+	.arrow{ right: 45.3%; }
+    .padd_48{ padding: 0 0; }
+    .btn-custom4{
+    	font-size: 14px;
+    	padding: 6px 8px;
+    	margin-top: 30px;
+    	margin-bottom: 0px;
+    }
+    .touch{ padding: 80px 40px; }  
+    .cus-button5{ padding: 14px 20px; }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.custom_card{ padding: 42px 70px 35px; }
+	.step_odd{ top: 55px; }
+	.step_even{ top: 55px; }
+	.reverse-collapse { top: -16.5%; right: 44.7%; }
+	.cus-button5{ padding: 14px 20px; }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}

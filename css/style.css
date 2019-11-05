@@ -1,0 +1,444 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+@font-face{
+	src:url(../fonts/HelveticaNeue.ttf);
+	font-family: Helve;
+}
+@font-face{
+	src:url(../fonts/Helvetica-Neu-Bold.ttf);
+	font-family: Helve-bld;
+}
+@font-face{
+	src:url(../fonts/HelveticaNeue-Light.ttf);
+	font-family: Helve-lt;
+}
+@font-face{
+	src:url(../fonts/HelveticaNeue-Medium.ttf);
+	font-family: Helve-norm;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*top bar start*/
+.top_bar{
+	background-color: #f0f2f4;
+	height: 48px;
+	font-size: 14px;
+}
+
+.top_bar ul{
+	padding: 10px 0;
+}
+
+.top_bar ul li p{
+	font-size: 14px;
+}
+/*top bar end*/
+
+/*header start*/
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+	font-family: Helve-bld;
+	font-size: 16px;
+	color: #424242 !important ;
+	padding: 0 20px 0 20px !important;
+	margin-top: 2px;
+	transition: 0.7s ;
+}
+.menu ul li i{
+	color: #424242 !important;
+	font-size: 6px;
+
+}
+.menu ul li a:hover{
+	color: #DD2A24 !important ;
+}
+
+.btn-custom1{
+	font-family: Helve-bld;
+	font-size: 16px;
+	color: #fff !important;
+	padding: 7px 20px;
+	background-color: #DE2A24;
+	transition: 0.7s;
+	border: 2px solid #DE2A24;
+}
+
+.btn-custom1:hover{
+	color: #DE2A24 !important;
+	background-color: transparent;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 175px 0 235px;
+}
+.banner h1{
+	font-family: Helve-bld ;
+	font-size: 48px ;
+	color: #fff;
+	margin-bottom: 0px;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+
+.banner p{
+	font-family: Helve-lt;
+	font-size: 32px;
+	color: #fff;
+	margin-bottom: 30px;
+	word-spacing: 1px;
+}
+
+.btn-custom2{
+	font-family: Helve-bld;
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #f8cd53;
+	border: 2px solid #f8cd53;
+	transition: 0.7s;
+	padding: 18px 42px;
+}
+.btn-custom2:hover{
+	background-color: transparent;
+	color: #f8cd53 !important;
+}
+/*banner end*/
+
+/*about_us start*/
+.about_us{
+	padding: 100px 0 120px;
+	color: #424242 !important;
+}
+
+.c_title{
+	font-family: Helve-bld;
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+.c_text{
+	font-family: Helve-lt;
+	font-size:20px;
+	margin-top: 0px;
+}
+.c_hr{
+	width: 50px;
+	height: 5px;
+	background-color: #424242;
+	margin-bottom: 45px;
+}
+
+.service{
+    padding: 0 50px;
+}
+.service h2{
+	font-family: Helve-bld;
+	font-size: 22px;
+	margin-top: 22px;
+	word-spacing: 1px;
+}
+
+.service p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    word-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+/*about_us end*/
+
+
+/*our_approach start*/
+.our_approach{
+	background-color: #f3f3f3;
+	color: #424242;
+	padding: 100px 0 90px;
+}
+
+.mb_42{
+	margin-bottom: 42px;
+}
+
+.custom_card{
+	position: relative;
+	padding: 70px 70px 65px;
+}
+
+.custom_card h5{
+	font-family: Helve-bld;
+	font-size: 18px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.custom_card p{
+    font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.step_odd{
+	position: absolute;
+	top: 70px;
+	left: -54px;
+}
+
+.step_even{
+	position: absolute;
+	top: 70px;
+	left: -54px;
+}
+/*our_approach end*/
+
+/*our_work start*/
+.our_work{
+	background-color: #DE2B24;
+	padding: 100px 140px 120px;
+}
+
+.c_color{
+	color: #fff !important;
+}
+
+.bc_color{
+	background-color: #fff !important;
+}
+
+.padd_0{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.image_box{
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F35E59;
+}
+.image_box:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text h2{
+	font-family: Helve-bld;
+	font-size: 20px;
+	color: #fff;
+
+}
+
+.text h6{
+	font-family: Helve-bld;
+	font-size: 18px;
+	color: #fff;
+}
+/*our_work end*/
+
+/*analysis start*/
+.analysis{
+	background-color: #1287BF;
+	padding: 100px 0px 120px;
+}
+
+.btn-custom3{
+	background: transparent;
+    color:#fff;
+}
+
+.form-card{
+	padding: 50px;
+	position: relative;
+	text-align: center;
+	transition: 0.6s;
+}
+
+.form-card:hover{
+	background-color: #d0ebed91;
+}
+
+.form_text{
+	font-size: 16px;
+	color: #828282;
+	text-align: center;
+}
+
+.padd_26{
+	padding-left: 26px;
+	padding-right: 26px;
+	padding-top: 20px;
+}
+
+.padd_48{
+	padding-left: 48px;
+	padding-right: 48px;
+	margin-bottom: 7px;
+}
+
+.cus_input{
+	padding: 28px 22px;
+	transition: 0.6s;
+}
+
+.cus_input:hover{
+	background-color: rgba(18,135,189,0.3);
+}
+
+.btn-custom4{
+	font-family: Helve-bld;
+	font-size: 18px;
+	color: #fff;
+	background-color: #DE2B24;
+	padding: 10px 10px;
+	margin-top: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.8s;
+	border: 2px solid #de2b24;
+	margin-bottom: 26px;
+}
+
+.btn-custom4:hover{
+	color: #de2b24;
+	background-color: #fff;
+}
+
+.arrow{
+	position: absolute;
+	top: -5%;
+	right: 47%;
+	font-size: 68px;
+	color: #fff;
+}
+
+.cross{
+	position: absolute;
+	top: -6%;
+	right: -3%;
+	background-color: #DE2B24;
+	font-size: 36px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 4px 10px;
+}
+
+.reverse-collapse{
+	position: absolute;
+    top: -17.3%;
+    right: 45.5%;
+}
+/*analysis end*/
+
+/*touch start*/
+.touch{
+	padding: 120px 110px;
+    background-color: #2a2a2a;
+}
+
+.s_box{
+	margin-top: 28px;
+	padding-left: 12px;
+}
+.box{
+	border: 2px solid #515151;
+	border-radius: 8%;
+	transition: 0.8s;
+	margin-right: 12px;
+}
+
+.box:hover{
+    border-color: red;
+}
+
+.box1{ padding: 10px 16px; }
+.box2{ padding: 10px 13px; }
+.box3{ padding: 10px; }
+.box4{ padding: 10px 15px; }
+
+.s_icon{
+	font-size: 21px;
+	color: #fff;
+}
+
+.s_text{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #cecece;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	word-spacing: 1px;
+}
+.s_email{
+	margin-top: 10px;
+	font-family: Helve;
+	font-size: 15px;
+	color: #fff !important;
+	background-color: #515151 !important;
+	padding: 26px;
+	border: none;
+}
+
+.cus-button5{
+	font-family: Helve-bld;
+	font-size: 16px;
+	color: #fff;
+	padding: 15px 28px;
+	transition: 0.7s;
+	background-color: transparent;
+	border: 2px solid #515151;
+	margin-top: 30px;
+}
+
+.cus-button5:hover{
+	color: red;
+	border: 2px solid red;
+	background-color: #515151;
+}
+/*touch end*/
+
+/*end bar start*/
+.end_bar{
+	background-color: #515151;
+	padding: 25px;
+}
+.e_text{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #cecece;
+}
+/*end bar end*/
+
